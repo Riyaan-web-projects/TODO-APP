@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple TODO APPLICATION</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!-- TODO APLLICATION -->
+    <!-- DIV CONTAINING HEADER -->
+    <div id="myDIV" class="header">
+        <h2>My TODO LIST -</h2>
+        <!-- Input tag - to get the information or the work he/she has to complete -->
+        <input type="text" id="myInput" placeholder="Title..."/>
+        <!-- span element - to add the info and display it below the header class -->
+        <span onclick="addTask();" class="addBtn">Add</span>
+    </div>
+    <!-- The list to be shown below the class header -->
+    <ul id="myUL">
+        <!-- Some common Todo elements -->
+        <li>DO the chores</li>
+        <li>GO to gym</li>
+        <li>Do my Homework</li>
+        <li>Play for 2 hours</li>
+        <!-- You can add more, but our main focus will be on taking the input and adding or removing once the task is complete -->
+    </ul>
+    <script src="./index.js"></script>
+</body>
+</html>
